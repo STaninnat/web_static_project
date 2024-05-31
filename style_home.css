@@ -1,15 +1,15 @@
 
 body{
     margin: 0px;
-    background-image: url(images/background/rainforest_1.jpg);
+    background-color: black;
 }
 
 /*text reveal, start here*/
 header{
     text-align:center;
     /*background:linear-gradient(300deg, hsl(0, 0%, 10%) 25%, hsl(0, 0%, 10%) 40%, hsl(0, 0%, 10%) 55%);*/
-    color:hsla(0, 0%, 0%, 0.5);
-    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    color:hsla(0, 0%, 90%, 0.7);
+    text-shadow: 0 0 5px hsl(0, 0%, 90%);
     font-family: "Kanit";
     font-size:48px;
     padding-top:25px;
@@ -65,7 +65,7 @@ header{
     width: fit-content;
 }
 .navbar a{
-    color: hsla(0, 0%, 0%, 0.7);
+    color: hsla(0, 0%, 90%, 0.7);
     text-decoration: none;
     font-family: "Kanit";
     font-size: 20px;
@@ -73,15 +73,30 @@ header{
     padding: 25px;
     display: block;
     text-align: center;
+    height: fit-content;
 }
 .navbar a:hover{
-    background-color: hsla(107, 100%, 8%, 0.7);
+    background-color: hsla(0, 0%, 20%, 0.7);
+    color: hsla(0, 0%, 100%);
+    font-size: 22px;
 }
 .navbar li{
     float: left;
 }
 /*navbar, end here*/
-.avatar{
-    display: inline-block;
-    border: 1px solid hsl(0, 0%, 0%);
+.racoon{
+    display: block;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+@media screen and (min-width: 2200px){
+    .racoon{
+        display: block;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
 }
