@@ -4,13 +4,15 @@ body{
     background-color: black;
 }
 
-/*text reveal, start here*/
+/*text reveal*/
 header{
     text-align:center;
     /*background:linear-gradient(300deg, hsl(0, 0%, 10%) 25%, hsl(0, 0%, 10%) 40%, hsl(0, 0%, 10%) 55%);*/
     color:hsla(0, 0%, 90%, 0.7);
     text-shadow: 0 0 5px hsl(0, 0%, 90%);
-    font-family: "Kanit";
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
     font-size:48px;
     padding-top:25px;
     overflow:hidden;
@@ -50,9 +52,7 @@ header{
     80% {opacity:1;}
     100% {opacity:0;width:490px;}
 }
-/*text reveal, end here*/
-
-/*navbar, start here*/
+/*navbar*/
 .navbar ul{
     list-style-type: none;
     padding: 0px;
@@ -67,7 +67,9 @@ header{
 .navbar a{
     color: hsla(0, 0%, 90%, 0.7);
     text-decoration: none;
-    font-family: "Kanit";
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
     font-size: 20px;
     margin-inline: 40px;
     padding: 25px;
@@ -83,10 +85,10 @@ header{
 .navbar li{
     float: left;
 }
-/*navbar, end here*/
+/*racoon*/
 .racoon{
     display: block;
-    margin-top: 3%;
+    margin-top: 4%;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
@@ -98,5 +100,54 @@ header{
         margin-left: auto;
         margin-right: auto;
         width: 30%;
+    }
+}
+/*avatar*/
+.avatar img{
+    display: block;
+    max-height: 750px;
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+}
+.intro{
+    h1{
+        color: white;
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 110pt;
+        display: block;
+        margin-top: 200px;
+        text-align: right;
+        margin-right: 100px;
+        text-shadow: 5px 5px 5px white;
+        margin-bottom: 0;
+    }
+    #h4_1{
+        color: white;
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50pt;
+        display: block;
+        margin-top: 10px;
+        text-align: right;
+        margin-right: 80px;
+        text-shadow: 2px 2px 5px white;
+        margin-bottom: 0;
+    }
+    #h4_2{
+        color: white;
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50pt;
+        display: block;
+        margin-top: 0;
+        text-align: right;
+        margin-right: 80px;
+        text-shadow: 2px 2px 5px white;
+        margin-bottom: 0;
     }
 }

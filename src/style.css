@@ -13,7 +13,9 @@ body{
     background-size: cover;
     background-clip: text;
     -webkit-background-clip: text;
-    font-family: "Kanit";
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
     font-size: 20em; 
     text-align: center;
     margin-top: 150px;
@@ -27,7 +29,9 @@ body{
         background-size: cover;
         background-clip: text;
         -webkit-background-clip: text;
-        font-family: "Kanit";
+        font-family: "Kanit", sans-serif;
+        font-weight: 800;
+        font-style: normal;
         font-size: 28em;
         text-align: center;
         margin-top: 250px;
