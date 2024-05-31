@@ -1,13 +1,13 @@
 body{
     margin: 0px;
-    background-image: url(images/background/rainforest_2.jpg);
+    background-image: url(../images/background/rainforest_2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
 }
 .welcome{
-    background: url(images/background/leaf.jpg);
+    background: url(../images/background/leaf.jpg);
     color: transparent;
     letter-spacing: 20px;
     background-size: cover;
@@ -22,7 +22,7 @@ body{
 @media screen and (min-width: 2200px){
     .welcome{
         letter-spacing: 30px;
-        background: url(images/background/leaf.jpg);
+        background: url(../images/background/leaf.jpg);
         color: transparent;
         background-size: cover;
         background-clip: text;
