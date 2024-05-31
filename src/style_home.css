@@ -206,18 +206,64 @@ header{
 .contactpic img{
     display: block;
     object-fit: cover;
-    width: 25%;
-    height: auto;
+    width: 400px;
+    height: 550px;
     position: absolute;
-    right: 40px;
-    bottom: 40px;
+    left: 550px;
+    margin-top: 25px;
     border-style: solid;
     border-width: 1px;
     border-color: white;
     border-radius: 20px;
 }
-/*contact email*/
-.emailicon{
+/*contact box*/
+#box1{
+    width: 1000px;
+    height: 700px;
+    background: url(../images/background/waterway.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 30px;
+    position: relative;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#box2{
+    width: 470px;
+    height: 650px;
+    background-color: hsla(152, 98%, 16%, 0.850);
+    border-radius: 30px;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+/*contact box*/
+#box2 h1{
+    color: hsla(0, 0%, 0%, 0.85);
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
     text-align: center;
-    margin-top: 100px;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+.fa-solid.fa-envelope.fa-3x{
+    color: rgb(255, 4, 4);
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    display: inline;
+}
+#box2 h2{
+    color: rebeccapurple;
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 36px;
+    text-align: right;
+    margin-right: 10px;
 }
