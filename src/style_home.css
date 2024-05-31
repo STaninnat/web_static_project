@@ -1,9 +1,7 @@
-
 body{
     margin: 0px;
     background-color: black;
 }
-
 /*text reveal*/
 header{
     text-align:center;
@@ -105,11 +103,14 @@ header{
 /*avatar*/
 .avatar img{
     display: block;
-    max-height: 750px;
+    object-fit: cover;
+    width: 35%;
+    max-height: 100%;
     position: absolute;
     bottom: 0;
-    left: 60px;
+    left: 40px;
 }
+/*intro text*/
 .intro{
     h1{
         color: white;
@@ -150,4 +151,73 @@ header{
         text-shadow: 2px 2px 5px white;
         margin-bottom: 0;
     }
+    @media screen and (min-width: 2200px){
+        h1{
+            color: white;
+            font-family: "Anton", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 150pt;
+            display: block;
+            margin-top: 400px;
+            text-align: right;
+            margin-right: 100px;
+            text-shadow: 5px 5px 5px white;
+            margin-bottom: 0;
+        }
+        #h4_1{
+            color: white;
+            font-family: "Anton", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 70pt;
+            display: block;
+            margin-top: 20px;
+            text-align: right;
+            margin-right: 80px;
+            text-shadow: 3px 3px 5px white;
+            margin-bottom: 0;
+        }
+        #h4_2{
+            color: white;
+            font-family: "Anton", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 70pt;
+            display: block;
+            margin-top: 0;
+            text-align: right;
+            margin-right: 80px;
+            text-shadow: 3px 3px 5px white;
+            margin-bottom: 0;
+        }
+    }
+}
+/*resume pdf display*/
+#myresume{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
+    height: 100vh;
+}
+/*contact pic*/
+.contactpic img{
+    display: block;
+    object-fit: cover;
+    width: 25%;
+    height: auto;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 20px;
+}
+/*contact email*/
+.emailicon{
+    text-align: center;
+    margin-top: 100px;
 }
