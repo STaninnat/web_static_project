@@ -234,11 +234,36 @@ header{
 #box2{
     width: 470px;
     height: 650px;
-    background-color: hsla(152, 98%, 16%, 0.850);
+    background-color: hsla(0, 0%, 25%, 0.7);
     border-radius: 30px;
     position: absolute;
     top: 25px;
     right: 30px;
+}
+@media screen and (min-width: 2200px){
+    #box1{
+        width: 1000px;
+        height: 700px;
+        background: url(../images/background/waterway.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    
+        border-radius: 30px;
+        position: relative;
+        display: block;
+        margin-top: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #box2{
+        width: 470px;
+        height: 650px;
+        background-color: hsla(0, 0%, 25%, 0.7);
+        border-radius: 30px;
+        position: absolute;
+        top: 25px;
+        right: 30px;
+    }
 }
 /*contact box*/
 #box2 h1{
@@ -252,18 +277,61 @@ header{
     margin-bottom: 0px;
 }
 .fa-solid.fa-envelope.fa-3x{
-    color: rgb(255, 4, 4);
+    color: hsl(0, 0%, 5%, 0.9);
     position: absolute;
     top: 200px;
     left: 20px;
-    display: inline;
 }
 #box2 h2{
-    color: rebeccapurple;
+    color: hsla(0, 0%, 5%, 0.9);
     font-family: "Kanit", sans-serif;
     font-weight: 800;
     font-style: normal;
     font-size: 36px;
     text-align: right;
     margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+.fa-solid.fa-envelope.fa-3x:hover, #box2 h2:hover{
+    text-decoration: none;
+    color: hsl(0, 0%, 1%);
+    transform: scale(1.02);
+}
+.fa-solid.fa-phone.fa-3x{
+    color: hsl(0, 0%, 5%, 0.9);
+    position: absolute;
+    top: 350px;
+    left: 20px;
+}
+.myphone{
+    color: hsla(0, 0%, 5%, 0.9);
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.fa-brands.fa-github.fa-3x{
+    color: hsl(0, 0%, 5%, 0.9);
+    position: absolute;
+    top: 500px;
+    left: 20px;
+}
+.mygithub{
+    color: hsla(0, 0%, 5%, 0.9);
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 36px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+.fa-brands.fa-github.fa-3x:hover, .mygithub:hover{
+    text-decoration: none;
+    color: hsl(0, 0%, 1%);
+    transform: scale(1.02);
 }
